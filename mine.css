@@ -1,0 +1,124 @@
+body {
+    background-color: rgba(0, 0, 0, 0.151);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    /* width: 200vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.719);
+    overflow: hidden;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.container.to {
+    background-color: rgb(255, 251, 0);
+}
+
+.botn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(238, 237, 237);
+    border-radius: 12px;
+    width: 100%;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+
+.botn.sodl {
+    background-color: rgba(7, 7, 7, 0.979);
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.788);
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+button:hover {
+    background-color: rgba(180, 162, 162, 0.60);
+}
+
+button:active {
+    background-color: rgba(180, 162, 162, 0.70)
+}
+
+button:last-child {
+    width: 380%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+input {
+    width: 100%;
+    font-size: 60px;
+    background-color: rgba(224, 200, 200, 0.096);
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+
+.o {
+    background-color: rgb(255, 251, 0);
+}
+
+.o:hover {
+    background-color: rgb(255, 258, 70);
+}
+
+.o:active {
+    background-color: rgb(250, 232, 90);
+}
+
+/* ---------------------------- start dark mode for buttom */
+
+.alk {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+#sun {
+    color: yellow;
+    padding-right: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+#dark {
+    color: rgb(0, 174, 255);
+    padding-right: 10px;
+    cursor: pointer;
+
+}
